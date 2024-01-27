@@ -1,0 +1,7 @@
+/* Give the body initial styles */ 
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 20px 0 20px ;
+    background: url("../images/pexels-bk.webp") no-repeat center center/cover ;               
+ }
