@@ -98,3 +98,30 @@ body {
     padding: 1%;
     color: rgb(0, 0, 0);                      
   }
+
+      /* Adjuste header elements to mobil/tablet devices screen*/
+      @media screen and (min-width: 700px) {
+
+        
+        #creater>p{
+            font-size: 20px;
+          }
+        }      
+
+        /* Adjuste header elements to mobil/tablet devices screen*/
+    @media screen and (min-width: 900px) {
+
+        .navbar-button {            
+            width: 200px;            
+        }
+
+
+
+        #social-networks{           
+            font-size: 3rem;                     
+          }
+
+        #creater>p{
+            font-size: 20px;
+          }
+    } 
