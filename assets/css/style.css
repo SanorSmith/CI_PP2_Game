@@ -62,3 +62,39 @@ body {
   #how-to-play{
     order: 5;
   }
+
+  /* footer style */
+  #footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:auto;                        
+  }
+
+  #creater {
+    display: flex;        
+    align-items: center;        
+  }
+
+  #creater>p{
+    font-size: 10px;
+  }
+  
+  
+  #social-networks{
+    height: 5rem; 
+    margin-right: 2%;       
+    justify-content: center; 
+    align-items: center;
+    font-size: 1.5rem;
+    color: rgb(26, 21, 21);         
+  }
+  #social-networks li{
+    padding: 5%;
+                   
+  }
+
+  #social-networks i{
+    padding: 1%;
+    color: rgb(0, 0, 0);                      
+  }
