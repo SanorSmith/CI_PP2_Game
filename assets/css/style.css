@@ -5,3 +5,60 @@ body {
     margin: 80px 20px 0 20px ;
     background: url("../images/pexels-bk.webp") no-repeat center center/cover ;               
  }
+
+ /* CSS for styling the Navbar buttons and logo image */
+
+ .navbar {           
+    height: 4rem;  
+    background: url("../images/pexels-bk.webp") no-repeat center center/cover ;              
+    box-shadow: 10px 10px 10px 5px;
+}
+
+/* Add and style logo image to the page */ 
+#logo-container{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+  .logo {
+    height: 50px;
+    width: 100px;
+    background: url("../images/Logo.png") no-repeat center center/cover ;
+    z-index: 0;
+  }    
+
+.collapse {      
+  height: 2rem;
+}
+
+  .navbar-button {
+    height: 3rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #AB9379;
+    opacity: 98%;        
+    box-shadow: 1px 1px 1px 1px #454545;  
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: #000;
+    cursor: pointer;
+    margin-right: 10px;
+}
+  #home-button:hover, #contact-button:hover, #play-button:hover{
+      background-color: #000;
+      color: darkred;
+      font-size: 1.2rem;
+      transition-delay: 0.2s;
+  }
+
+  #main-container {
+    margin: 0;
+  }
+
+  #how-to-play{
+    order: 5;
+  }
