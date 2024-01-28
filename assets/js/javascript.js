@@ -263,3 +263,9 @@ function updateScore() {
     scoreX.innerText = score["X"];
     scoreO.innerText = score["O"];
 }
+
+// Function to restart the game and reset the valuse
+function restartGame() {
+   scoreX.innerText = score["X"] = 0;
+   scoreO.innerText = score["O"] = 0;   
+}
