@@ -277,7 +277,8 @@ function updateScore() {
 // Function to restart the game and reset the valuse
 function restartGame() {
    scoreX.innerText = score["X"] = 0;
-   scoreO.innerText = score["O"] = 0;   
+   scoreO.innerText = score["O"] = 0;
+   resetGame();   
 }
 
 // Function to reset the game board
