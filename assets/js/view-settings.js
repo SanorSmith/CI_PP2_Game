@@ -13,6 +13,7 @@ export const startMessages = document.getElementById("start-m");
 export const aboutTheGame = document.getElementById("about-the-game");
 export const gameHistory = document.getElementById('game-history');
 
+
 // Function to show the initial game content
 export function showInitialHomeContent() {
     pageRender.style.display = "block";
