@@ -165,9 +165,6 @@ twoPlayersButton.addEventListener("click", () => {
    startMessages.style.display = "none";
 });
 
-
-
-
 //Rulls function for the game 
 
 let boardState = ["", "", "", "", "", "", "", "", ""];
@@ -179,14 +176,20 @@ let gameWon = false;
 function handleCellClick(index) {
     if (boardState[index] === "" && !gameWon) {
         boardState[index] = currentPlayer;
-        renderBoard();         
+        renderBoard();
+        if (!checkWinner()) {
+         currentPlayer = currentPlayer === "X" ? "O" : "X";
+         if (onePlayerMode && currentPlayer === "O") {
+             computerMove();
+         }
+     }         
     }
 }
 
 // Function to render the Tic Tac Toe board
 const board = document.getElementById("board");
 
-export function renderBoard() {
+function renderBoard() {
     board.innerHTML = "";
     boardState.forEach((cell, index) => {
         const cellElement = document.createElement("div");
@@ -195,4 +198,24 @@ export function renderBoard() {
         cellElement.addEventListener("click", () => handleCellClick(index));
         board.appendChild(cellElement);
     });
+}
+
+// Function to make the computer's move
+function computerMove() {
+   // Create an array of indices for empty cells
+   let emptyCells = [];
+   for (let i = 0; i < boardState.length; i++) {
+       if (boardState[i] === "") {
+           emptyCells.push(i);
+       }
+   }
+
+   // Check if there are any empty cells and make a move
+   if (emptyCells.length > 0) {
+       let randomIndex = Math.floor(Math.random() * emptyCells.length);
+       boardState[emptyCells[randomIndex]] = "O";
+       currentPlayer = "X";
+       renderBoard();
+       checkWinner();
+   }
 }
