@@ -179,6 +179,7 @@ restartButton.addEventListener("click", restartGame);
 
 let boardState = ["", "", "", "", "", "", "", "", ""];
 let currentPlayer = "X";
+let score = { X: 0, O: 0 };
 let gameWon = false;
 
 // Function to handle cell click
