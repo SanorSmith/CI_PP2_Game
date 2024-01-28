@@ -275,3 +275,17 @@ function restartGame() {
    scoreO.innerText = score["O"] = 0;   
 }
 
+// Function to reset the game board
+function resetGame() {
+   boardState = ["", "", "", "", "", "", "", "", ""];
+   currentPlayer = "X";
+   message.innerText = "";
+
+   // Reset gameWon to false
+   gameWon = false;
+
+   renderBoard();
+   if (onePlayerMode && currentPlayer === "O") {
+       computerMove();
+   }
+}
