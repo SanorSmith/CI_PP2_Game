@@ -167,8 +167,11 @@ twoPlayersButton.addEventListener("click", () => {
 });
 
 
+// Event listener for the "Reset Game" button
+resetButton.addEventListener("click", resetGame);
+
 // Event listener for the "Restart Game" button
-restartButton.addEventListener("click", resetGame);
+restartButton.addEventListener("click", restartGame);
 
 
 //Rulls function for the game 
