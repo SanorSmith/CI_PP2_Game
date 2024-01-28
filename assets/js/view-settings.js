@@ -19,7 +19,8 @@ function showInitialHomeContent() {
     scoreContent.style.display = "none";
     boardContent.style.display = "none";
     contactForm.style.display = "none";
-    gameHistory.style.display = "block";    //Show game history    
+    gameHistory.style.display = "block";    //Show game history 
+    startButton.style.display = "block";   
     startMessages.style.display = "none";
 }
 
@@ -54,6 +55,18 @@ function initialGameBoardRunder() {
     boardContent.style.display = "none";
 }
 
+// Function to determine screen size
+function init() {
+    let mQuery = window.matchMedia("(min-width: 900px)");
+    runningGameBoardRunder();
+
+    if (mQuery.matches) {
+        runningGameBoardRunder();
+    } else {
+        runningGameBoardRunderMobile();
+    }
+}
+
 // Styles for large-screen devices
 const gameContent = document.getElementById("game-content");
 const resetButton = document.getElementById("reset-button");
@@ -82,6 +95,16 @@ function runningGameBoardRunder() {
     resetButton.style.margin = "1rem";
     restartButton.style.width = "7rem";
     restartButton.style.margin = "1rem";
+}
+
+// Mobile devices styles
+function runningGameBoardRunderMobile() {
+    gameContent.style.width = "100%";
+    boardContent.style.flexDirection = "column";
+    boardContent.style.justifyContent = "center";
+    boardContent.style.width = "100%";
+    pageRender.style.display = "block";
+    howToPlay.style.width = "100%";
 }
 
 window.onload = showInitialHomeContent();
