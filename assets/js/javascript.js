@@ -219,3 +219,47 @@ function computerMove() {
        checkWinner();
    }
 }
+
+// Function to check if there is a winner
+function checkWinner() {
+   const winPatterns = [
+       [0, 1, 2], [3, 4, 5], [6, 7, 8],
+       [0, 3, 6], [1, 4, 7], [2, 5, 8],
+       [0, 4, 8], [2, 4, 6]
+   ];
+
+   for (const pattern of winPatterns) {
+       const [a, b, c] = pattern;
+       if (boardState[a] && boardState[a] === boardState[b] && boardState[a] === boardState[c]) {
+           if (boardState[a] === "X") {
+               message.innerText = "Player X wins!";
+               score["X"]++;
+           } else {
+               message.innerText = onePlayerMode ? "Computer wins!" : "Player O wins!";
+               score["O"]++;
+           }
+           updateScore();
+           
+           // Set gameWon to true
+           gameWon = true;
+           return true;
+       }
+   }
+
+   if (!boardState.includes("")) {
+       message.innerText = "It's a draw!";
+       return true;
+   }
+
+   return false;
+}
+
+// Function to update the score display
+const scoreX = document.getElementById("score-x");
+const scoreO = document.getElementById("score-o");
+
+// Function to update the score display
+function updateScore() {
+    scoreX.innerText = score["X"];
+    scoreO.innerText = score["O"];
+}
