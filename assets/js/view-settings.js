@@ -164,3 +164,6 @@ twoPlayersButton.addEventListener("click", () => {
     startMessages.innerHTML = "Click start game to play";
     startMessages.style.display = "none";
 });
+
+// Render the game board
+RulesFunctions.renderBoard();
