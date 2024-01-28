@@ -165,6 +165,11 @@ twoPlayersButton.addEventListener("click", () => {
    startMessages.style.display = "none";
 });
 
+
+// Event listener for the "Restart Game" button
+restartButton.addEventListener("click", resetGame);
+
+
 //Rulls function for the game 
 
 let boardState = ["", "", "", "", "", "", "", "", ""];
@@ -269,3 +274,4 @@ function restartGame() {
    scoreX.innerText = score["X"] = 0;
    scoreO.innerText = score["O"] = 0;   
 }
+
