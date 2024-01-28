@@ -1,3 +1,6 @@
+// Import functions and variables from view-settings.js
+import * as RulesFunctions from "/assets/js/rules-functions.js";
+
 // Elements for initial game content
 export const pageRender = document.getElementById("main-container");
 export const howToPlay = document.getElementById("how-to-play");
