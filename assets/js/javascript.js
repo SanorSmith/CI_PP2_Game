@@ -11,6 +11,7 @@ const startButton = document.getElementById("start-button");
 const startMessages = document.getElementById("start-m");
 const aboutTheGame = document.getElementById("about-the-game");
 const gameHistory = document.getElementById('game-history');
+let onePlayerMode = false; // Flag to check single player
 
 // Function to show the initial game content
 function showInitialHomeContent() {
@@ -174,7 +175,6 @@ restartButton.addEventListener("click", resetGame);
 
 let boardState = ["", "", "", "", "", "", "", "", ""];
 let currentPlayer = "X";
-let onePlayerMode = false;
 let gameWon = false;
 
 // Function to handle cell click
