@@ -62,20 +62,61 @@ body {
   #how-to-play{
     order: 5;
   }
+
+  /* CSS for styling the Tic Tac Toe board */
+  #tools-container{
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  /* Score boared Styles */ 
+  #score-content{
+    width: 100%;
+    padding:10px;
+    flex-direction: row;
+  }
+  
+  .board {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.2rem;          
+      margin: 30px;          
+  }
+
+  .cell {
+      width: 100px;
+      height:100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 5rem;
+      font-weight: bold;
+      border: 2px solid #000;
+      cursor: pointer;
+      border-radius: 1rem;
+      box-shadow: 2px 2px 0px;           
+  }
+
+  .score {
+      text-align: center;
+      font-size: 20px;
+      margin-top: 20px;
+  }
   
   #mode-selection, #game-content {
-    text-align: center;
-    margin-top: 20px;
-}
+          text-align: center;
+          margin-top: 20px;
+      }
 
-#mode-selection button {
-    margin: 5px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 10px;
-    background-color: #AB9379;
-}
+      #mode-selection button {
+          margin: 5px;
+          padding: 10px 20px;
+          font-size: 16px;
+          cursor: pointer;
+          border-radius: 10px;
+          background-color: #AB9379;
+      }
 
   /* CSS for styling the Contact Us form */
       .contact-form {

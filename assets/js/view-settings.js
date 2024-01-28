@@ -1,14 +1,15 @@
 // Elements for initial game content
- const pageRender = document.getElementById("main-container");
- const howToPlay = document.getElementById("how-to-play");
- const modeSelection = document.getElementById("mode-selection");
- const scoreContent = document.getElementById("score-content");
- const boardContent = document.getElementById("board-content");
- const contactForm = document.getElementById("contact-form");
- const startButton = document.getElementById("start-button");
- const startMessages = document.getElementById("start-m");
- const aboutTheGame = document.getElementById("about-the-game");
- const gameHistory = document.getElementById('game-history');
+export const pageRender = document.getElementById("main-container");
+export const howToPlay = document.getElementById("how-to-play");
+export const modeSelection = document.getElementById("mode-selection");
+export const scoreContent = document.getElementById("score-content");
+export const boardContent = document.getElementById("board-content");
+export const contactForm = document.getElementById("contact-form");
+export const startButton = document.getElementById("start-button");
+export const startMessages = document.getElementById("start-m");
+export const aboutTheGame = document.getElementById("about-the-game");
+export const gameHistory = document.getElementById('game-history');
+
 
 // Function to show the initial game content
 function showInitialHomeContent() {
@@ -34,12 +35,16 @@ function showContact() {
     contactForm.style.display = "block";    // Show the contact form
     gameHistory.style.display = "none";
 }
-// Function to show the play game content when press play button
-function showPlay() {    
-    aboutTheGame.style.display = "none";// Hide the about the game div
-    howToPlay.style.display = "block"; // Show the Play section    
+
+// Function to show the play game content
+export function showPlay() {
+    showInitialHomeContent();
+    initialGameBoardRunder();
+    aboutTheGame.style.display = "none";
+    howToPlay.style.display = "block";
+    startMessages.style.display = "block";
     contactForm.style.display = "none"; // Hide the contact form
-    gameHistory.style.display = "none";// Hide game history section
+    gameHistory.style.display = "none";
 }
 
 // Function to configure initial board content
