@@ -160,7 +160,8 @@ onePlayerButton.addEventListener("click", () => {
 
 // Event listener for the "Two Players" button
 twoPlayersButton.addEventListener("click", () => {
-   onePlayerMode = false;   
+   onePlayerMode = false; 
+   resetGame();  
    init();
    startMessages.innerHTML = "Click start game to play";
    startMessages.style.display = "none";
