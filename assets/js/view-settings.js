@@ -13,29 +13,28 @@ export const startMessages = document.getElementById("start-m");
 export const aboutTheGame = document.getElementById("about-the-game");
 export const gameHistory = document.getElementById('game-history');
 
-
 // Function to show the initial game content
-function showInitialHomeContent() {
-    pageRender.style.display = "block";     // view page as block
+export function showInitialHomeContent() {
+    pageRender.style.display = "block";
     howToPlay.style.display = "none";
-    aboutTheGame.style.display = "block";   // Show about game section
+    aboutTheGame.style.display = "block";
     modeSelection.style.display = "none";
     scoreContent.style.display = "none";
     boardContent.style.display = "none";
     contactForm.style.display = "none";
-    gameHistory.style.display = "block";    //Show game history 
-    startButton.style.display = "block";   
+    gameHistory.style.display = "block";
+    startButton.style.display = "block";
     startMessages.style.display = "none";
 }
 
-// Function to show the contact when press Contact uss button
-function showContact() {
+// Function to hide the game content
+export function showContact() {
     howToPlay.style.display = "none";
     aboutTheGame.style.display = "none";
     modeSelection.style.display = "none";
     scoreContent.style.display = "none";
     boardContent.style.display = "none";
-    contactForm.style.display = "block";    // Show the contact form
+    contactForm.style.display = "block"; // Show the contact form
     gameHistory.style.display = "none";
 }
 
@@ -51,10 +50,10 @@ export function showPlay() {
 }
 
 // Function to configure initial board content
-const onePlayerButton = document.getElementById("one-player");
-const twoPlayersButton = document.getElementById("two-players");
+export const onePlayerButton = document.getElementById("one-player");
+export const twoPlayersButton = document.getElementById("two-players");
 
-function initialGameBoardRunder() {
+export function initialGameBoardRunder() {
     modeSelection.style.display = "flex";
     modeSelection.style.justifyContent = "center";
     onePlayerButton.style.display = "none";
@@ -64,7 +63,7 @@ function initialGameBoardRunder() {
 }
 
 // Function to determine screen size
-function init() {
+export function init() {
     let mQuery = window.matchMedia("(min-width: 900px)");
     runningGameBoardRunder();
 
@@ -76,13 +75,13 @@ function init() {
 }
 
 // Styles for large-screen devices
-const gameContent = document.getElementById("game-content");
-const resetButton = document.getElementById("reset-button");
-const restartButton = document.getElementById("restart-button");
-const buttonsContainer = document.getElementById("buttons-container");
+export const gameContent = document.getElementById("game-content");
+export const resetButton = document.getElementById("reset-button");
+export const restartButton = document.getElementById("restart-button");
+export const buttonsContainer = document.getElementById("buttons-container");
 
 // Styling function for the game board display
-function runningGameBoardRunder() {
+export function runningGameBoardRunder() {
     gameContent.style.width = "50%";
     pageRender.style.display = "flex";
     pageRender.style.flexDirection = "row";
@@ -106,7 +105,7 @@ function runningGameBoardRunder() {
 }
 
 // Mobile devices styles
-function runningGameBoardRunderMobile() {
+export function runningGameBoardRunderMobile() {
     gameContent.style.width = "100%";
     boardContent.style.flexDirection = "column";
     boardContent.style.justifyContent = "center";
@@ -115,30 +114,30 @@ function runningGameBoardRunderMobile() {
     howToPlay.style.width = "100%";
 }
 
+// Initial loading for index.html
 window.onload = showInitialHomeContent();
 
 // Event listener for the "Home" button
-const homeButton = document.getElementById("home-button");
+export const homeButton = document.getElementById("home-button");
 homeButton.addEventListener("click", () => {
-    showInitialHomeContent();    
+    showInitialHomeContent();   
+});
+
+// Event listener for the "Contact Us" button
+export const contactButton = document.getElementById("contact-button");
+contactButton.addEventListener("click", () => {
+    showInitialHomeContent();
+    showContact();   
 });
 
 // Event listener for the "Play" button (added play button)
-const playButton = document.getElementById("play-button");
+export const playButton = document.getElementById("play-button");
 playButton.addEventListener("click", () => {
     pageRender.style.display = "block";
     howToPlay.style.width = "100%";
     gameContent.style.width = "auto";
-    modeSelection.style.display = "flex";
-    startMessages.style.display = "flex";
-    showPlay();    
-});
-
-// Event listener for the "Contact Us" button
-const contactButton = document.getElementById("contact-button");
-contactButton.addEventListener("click", () => {
-    showInitialHomeContent();
-    showContact();    
+    showPlay();
+    RulesFunctions.restartGame();
 });
 
 // Event listener for the "Start" button
@@ -151,14 +150,16 @@ startButton.addEventListener("click", () => {
 });
 
 // Event listener for the "One Player" button
-onePlayerButton.addEventListener("click", () => {       
+onePlayerButton.addEventListener("click", () => {    
+    RulesFunctions.resetGame();
     init();
     startMessages.innerHTML = "Click start game to play";
     startMessages.style.display = "none";
 });
 
 // Event listener for the "Two Players" button
-twoPlayersButton.addEventListener("click", () => {    
+twoPlayersButton.addEventListener("click", () => {
+    RulesFunctions.resetGame();
     init();
     startMessages.innerHTML = "Click start game to play";
     startMessages.style.display = "none";
