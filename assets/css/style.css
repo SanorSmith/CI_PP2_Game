@@ -63,6 +63,26 @@ body {
     order: 5;
   }
 
+  /* CSS for styling the Contact Us form */
+  .contact-form {
+    display: none; /* Initially hidden */
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea,
+.contact-form input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    
+}
+
   /* footer style */
   #footer-container{
     display: flex;
