@@ -121,6 +121,8 @@ playButton.addEventListener("click", () => {
     pageRender.style.display = "block";
     howToPlay.style.width = "100%";
     gameContent.style.width = "auto";
+    modeSelection.style.display = "flex";
+    startMessages.style.display = "flex";
     showPlay();    
 });
 
@@ -129,4 +131,27 @@ const contactButton = document.getElementById("contact-button");
 contactButton.addEventListener("click", () => {
     showInitialHomeContent();
     showContact();    
+});
+
+// Event listener for the "Start" button
+startButton.addEventListener("click", () => {
+    startButton.style.display = "none";
+    modeSelection.style.display = "flex";
+    onePlayerButton.style.display = "block";
+    twoPlayersButton.style.display = "block";
+    startMessages.innerHTML = "Please select the number of players";
+});
+
+// Event listener for the "One Player" button
+onePlayerButton.addEventListener("click", () => {       
+    init();
+    startMessages.innerHTML = "Click start game to play";
+    startMessages.style.display = "none";
+});
+
+// Event listener for the "Two Players" button
+twoPlayersButton.addEventListener("click", () => {    
+    init();
+    startMessages.innerHTML = "Click start game to play";
+    startMessages.style.display = "none";
 });
