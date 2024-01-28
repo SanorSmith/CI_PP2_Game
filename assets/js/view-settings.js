@@ -41,6 +41,49 @@ function showPlay() {
     gameHistory.style.display = "none";// Hide game history section
 }
 
+// Function to configure initial board content
+const onePlayerButton = document.getElementById("one-player");
+const twoPlayersButton = document.getElementById("two-players");
+
+function initialGameBoardRunder() {
+    modeSelection.style.display = "flex";
+    modeSelection.style.justifyContent = "center";
+    onePlayerButton.style.display = "none";
+    twoPlayersButton.style.display = "none";
+    scoreContent.style.display = "none";
+    boardContent.style.display = "none";
+}
+
+// Styles for large-screen devices
+const gameContent = document.getElementById("game-content");
+const resetButton = document.getElementById("reset-button");
+const restartButton = document.getElementById("restart-button");
+const buttonsContainer = document.getElementById("buttons-container");
+
+// Styling function for the game board display
+function runningGameBoardRunder() {
+    gameContent.style.width = "50%";
+    pageRender.style.display = "flex";
+    pageRender.style.flexDirection = "row";
+    howToPlay.style.width = "50%";
+    onePlayerButton.style.display = "none";
+    twoPlayersButton.style.display = "none";
+
+    // Score board Styles
+    scoreContent.style.display = "block";
+    // Play Board Styles
+    boardContent.style.display = "flex";
+    boardContent.style.justifyContent = "center";
+
+    // Start-Restart Buttons styles
+    buttonsContainer.style.display = "flex";
+    buttonsContainer.style.justifyContent = "space-around";
+    resetButton.style.width = "7rem";
+    resetButton.style.margin = "1rem";
+    restartButton.style.width = "7rem";
+    restartButton.style.margin = "1rem";
+}
+
 window.onload = showInitialHomeContent();
 
 // Event listener for the "Home" button
@@ -59,7 +102,7 @@ playButton.addEventListener("click", () => {
 });
 
 // Event listener for the "Contact Us" button
-export const contactButton = document.getElementById("contact-button");
+const contactButton = document.getElementById("contact-button");
 contactButton.addEventListener("click", () => {
     showInitialHomeContent();
     showContact();    
