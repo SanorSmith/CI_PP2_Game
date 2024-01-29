@@ -121,14 +121,15 @@ window.onload = showInitialHomeContent();
 const homeButton = document.getElementById("home-button");
 homeButton.addEventListener("click", () => {
    showInitialHomeContent();
-   resetGame();
+   restartGame();
 });
 
 // Event listener for the "Contact Us" button
 const contactButton = document.getElementById("contact-button");
 contactButton.addEventListener("click", () => {
    showInitialHomeContent();
-   showContent();   
+   showContent(); 
+   restartGame();  
 });
 
 // Event listener for the "Play" button (added play button)
@@ -138,6 +139,7 @@ playButton.addEventListener("click", () => {
    howToPlay.style.width = "100%";
    gameContent.style.width = "auto";
    showPlay();   
+   resetGame();
 });
 
 // Event listener for the "Start" button
