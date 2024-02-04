@@ -207,7 +207,7 @@ function renderBoard() {
         var cellElement = document.createElement("div");
         cellElement.classList.add("cell");
         cellElement.innerText = cell;
-        cellElement.addEventListener("click", function() { handleCellClick(index)});
+        cellElement.addEventListener("click", function() { handleCellClick(index);});
         board.appendChild(cellElement);
     });
 }
