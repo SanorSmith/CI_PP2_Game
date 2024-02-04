@@ -119,14 +119,14 @@ window.onload = showInitialHomeContent();
 
 // Event listener for the "Home" button
 var homeButton = document.getElementById("home-button");
-homeButton.addEventListener("click", () => {
+homeButton.addEventListener("click", function() {
    showInitialHomeContent();
    restartGame();
 });
 
 // Event listener for the "Contact Us" button
 var contactButton = document.getElementById("contact-button");
-contactButton.addEventListener("click", () => {
+contactButton.addEventListener("click", function() {
    showInitialHomeContent();
    showContent(); 
    restartGame();  
@@ -134,7 +134,7 @@ contactButton.addEventListener("click", () => {
 
 // Event listener for the "Play" button (added play button)
 var playButton = document.getElementById("play-button");
-playButton.addEventListener("click", () => {
+playButton.addEventListener("click", function() {
    pageRender.style.display = "block";
    howToPlay.style.width = "100%";
    gameContent.style.width = "auto";
@@ -143,7 +143,7 @@ playButton.addEventListener("click", () => {
 });
 
 // Event listener for the "Start" button
-startButton.addEventListener("click", () => {
+startButton.addEventListener("click", function() {
    startButton.style.display = "none";
    modeSelection.style.display = "flex";
    onePlayerButton.style.display = "block";
@@ -152,7 +152,7 @@ startButton.addEventListener("click", () => {
 });
 
 // Event listener for the "One Player" button
-onePlayerButton.addEventListener("click", () => {
+onePlayerButton.addEventListener("click", function() {
    onePlayerMode = true;
    resetGame();
    init();
@@ -161,7 +161,7 @@ onePlayerButton.addEventListener("click", () => {
 });
 
 // Event listener for the "Two Players" button
-twoPlayersButton.addEventListener("click", () => {
+twoPlayersButton.addEventListener("click", function() {
    onePlayerMode = false; 
    resetGame();  
    init();
@@ -203,11 +203,11 @@ var board = document.getElementById("board");
 
 function renderBoard() {
     board.innerHTML = "";
-    boardState.forEach((cell, index) => {
+    boardState.forEach(function(cell, index) {
         var cellElement = document.createElement("div");
         cellElement.classList.add("cell");
         cellElement.innerText = cell;
-        cellElement.addEventListener("click", () => handleCellClick(index));
+        cellElement.addEventListener("click", function() { handleCellClick(index)});
         board.appendChild(cellElement);
     });
 }
