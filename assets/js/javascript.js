@@ -240,8 +240,8 @@ function checkWinner() {
        [0, 4, 8], [2, 4, 6]
    ];
 
-   for (var pattern of winPatterns) {
-       var [a, b, c] = pattern;
+   for (var [a, b, c] of winPatterns) {
+        
        if (boardState[a] && boardState[a] === boardState[b] && boardState[a] === boardState[c]) {
            if (boardState[a] === "X") {
                message.innerText = "Player X wins!";
