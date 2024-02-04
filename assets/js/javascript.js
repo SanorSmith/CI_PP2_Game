@@ -240,7 +240,9 @@ function checkWinner() {
        [0, 4, 8], [2, 4, 6]
    ];
 
-   for (var [a, b, c] of winPatterns) {
+   for (var i = 0; i < winPatterns.length; i++) {
+    var pattern = winPatterns[i];
+    var a = pattern[0], b = pattern[1], c = pattern[2];
         
        if (boardState[a] && boardState[a] === boardState[b] && boardState[a] === boardState[c]) {
            if (boardState[a] === "X") {
