@@ -185,14 +185,10 @@ body {
 
 #P_404 {
   height: 600px;
-  width: 100%;  
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  justify-content: space-around;
-  font-size: 1.3rem;
-  
+  width: 100%; 
+  font-size: 1.3rem;  
 }
+
 #page_404 {
   display: flex;
   flex-direction: column;
