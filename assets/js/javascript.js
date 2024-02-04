@@ -11,7 +11,7 @@ var startButton = document.getElementById("start-button");
 var startMessages = document.getElementById("start-m");
 var aboutTheGame = document.getElementById("about-the-game");
 var gameHistory = document.getElementById('game-history');
-let onePlayerMode = false; // Flag to check single player
+var onePlayerMode = false; // Flag to check single player
 
 // Function to show the initial game content
 function showInitialHomeContent() {
@@ -64,7 +64,7 @@ function initialGameBoardRunder() {
 
 // Function to determine screen size
 function init() {
-   let mQuery = window.matchMedia("(min-width: 900px)");
+   var mQuery = window.matchMedia("(min-width: 900px)");
    runningGameBoardRunder();
 
    if (mQuery.matches) {
@@ -179,10 +179,10 @@ restartButton.addEventListener("click", restartGame);
 
 //Rulls function for the game 
 
-let boardState = ["", "", "", "", "", "", "", "", ""];
-let currentPlayer = "X";
-let score = { X: 0, O: 0 };
-let gameWon = false;
+var boardState = ["", "", "", "", "", "", "", "", ""];
+var currentPlayer = "X";
+var score = { X: 0, O: 0 };
+var gameWon = false;
 
 // Function to handle cell click
 function handleCellClick(index) {
@@ -215,8 +215,8 @@ function renderBoard() {
 // Function to make the computer's move
 function computerMove() {
    // Create an array of indices for empty cells
-   let emptyCells = [];
-   for (let i = 0; i < boardState.length; i++) {
+   var emptyCells = [];
+   for (var i = 0; i < boardState.length; i++) {
        if (boardState[i] === "") {
            emptyCells.push(i);
        }
@@ -224,7 +224,7 @@ function computerMove() {
 
    // Check if there are any empty cells and make a move
    if (emptyCells.length > 0) {
-       let randomIndex = Math.floor(Math.random() * emptyCells.length);
+       var randomIndex = Math.floor(Math.random() * emptyCells.length);
        boardState[emptyCells[randomIndex]] = "O";
        currentPlayer = "X";
        renderBoard();
