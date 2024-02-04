@@ -247,10 +247,10 @@ function checkWinner() {
        if (boardState[a] && boardState[a] === boardState[b] && boardState[a] === boardState[c]) {
            if (boardState[a] === "X") {
                message.innerText = "Player X wins!";
-               score["X"]++;
+               score.X += 1;
            } else {
                message.innerText = onePlayerMode ? "Computer wins!" : "Player O wins!";
-               score["O"]++;
+               score.o += 1;
            }
            updateScore();
            
@@ -274,14 +274,14 @@ var scoreO = document.getElementById("score-o");
 
 // Function to update the score display
 function updateScore() {
-    scoreX.innerText = score["X"];
-    scoreO.innerText = score["O"];
+    scoreX.innerText = score.X;
+    scoreO.innerText = score.O;
 }
 
 // Function to restart the game and reset the valuse
 function restartGame() {
-   scoreX.innerText = score["X"] = 0;
-   scoreO.innerText = score["O"] = 0;
+   scoreX.innerText = score.X = 0;
+   scoreO.innerText = score.O = 0;
    resetGame();   
 }
 
