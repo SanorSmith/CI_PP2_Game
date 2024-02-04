@@ -1,16 +1,16 @@
 // View setting code 
 
 // Elements for initial game content
-const pageRender = document.getElementById("main-container");
-const howToPlay = document.getElementById("how-to-play");
-const modeSelection = document.getElementById("mode-selection");
-const scoreContent = document.getElementById("score-content");
-const boardContent = document.getElementById("board-content");
-const contactForm = document.getElementById("contact-form");
-const startButton = document.getElementById("start-button");
-const startMessages = document.getElementById("start-m");
-const aboutTheGame = document.getElementById("about-the-game");
-const gameHistory = document.getElementById('game-history');
+var pageRender = document.getElementById("main-container");
+var howToPlay = document.getElementById("how-to-play");
+var modeSelection = document.getElementById("mode-selection");
+var scoreContent = document.getElementById("score-content");
+var boardContent = document.getElementById("board-content");
+var contactForm = document.getElementById("contact-form");
+var startButton = document.getElementById("start-button");
+var startMessages = document.getElementById("start-m");
+var aboutTheGame = document.getElementById("about-the-game");
+var gameHistory = document.getElementById('game-history');
 let onePlayerMode = false; // Flag to check single player
 
 // Function to show the initial game content
@@ -50,8 +50,8 @@ function showPlay() {
 }
 
 // Function to configure initial board content
-const onePlayerButton = document.getElementById("one-player");
-const twoPlayersButton = document.getElementById("two-players");
+var onePlayerButton = document.getElementById("one-player");
+var twoPlayersButton = document.getElementById("two-players");
 
 function initialGameBoardRunder() {
    modeSelection.style.display = "flex";
@@ -75,10 +75,10 @@ function init() {
 }
 
 // Styles for large-screen devices
-const gameContent = document.getElementById("game-content");
-const resetButton = document.getElementById("reset-button");
-const restartButton = document.getElementById("restart-button");
-const buttonsContainer = document.getElementById("buttons-container");
+var gameContent = document.getElementById("game-content");
+var resetButton = document.getElementById("reset-button");
+var restartButton = document.getElementById("restart-button");
+var buttonsContainer = document.getElementById("buttons-container");
 
 // Styling function for the game board display
 function runningGameBoardRunder() {
@@ -118,14 +118,14 @@ function runningGameBoardRunderMobile() {
 window.onload = showInitialHomeContent();
 
 // Event listener for the "Home" button
-const homeButton = document.getElementById("home-button");
+var homeButton = document.getElementById("home-button");
 homeButton.addEventListener("click", () => {
    showInitialHomeContent();
    restartGame();
 });
 
 // Event listener for the "Contact Us" button
-const contactButton = document.getElementById("contact-button");
+var contactButton = document.getElementById("contact-button");
 contactButton.addEventListener("click", () => {
    showInitialHomeContent();
    showContent(); 
@@ -133,7 +133,7 @@ contactButton.addEventListener("click", () => {
 });
 
 // Event listener for the "Play" button (added play button)
-const playButton = document.getElementById("play-button");
+var playButton = document.getElementById("play-button");
 playButton.addEventListener("click", () => {
    pageRender.style.display = "block";
    howToPlay.style.width = "100%";
@@ -199,12 +199,12 @@ function handleCellClick(index) {
 }
 
 // Function to render the Tic Tac Toe board
-const board = document.getElementById("board");
+var board = document.getElementById("board");
 
 function renderBoard() {
     board.innerHTML = "";
     boardState.forEach((cell, index) => {
-        const cellElement = document.createElement("div");
+        var cellElement = document.createElement("div");
         cellElement.classList.add("cell");
         cellElement.innerText = cell;
         cellElement.addEventListener("click", () => handleCellClick(index));
@@ -234,14 +234,14 @@ function computerMove() {
 
 // Function to check if there is a winner
 function checkWinner() {
-   const winPatterns = [
+   var winPatterns = [
        [0, 1, 2], [3, 4, 5], [6, 7, 8],
        [0, 3, 6], [1, 4, 7], [2, 5, 8],
        [0, 4, 8], [2, 4, 6]
    ];
 
-   for (const pattern of winPatterns) {
-       const [a, b, c] = pattern;
+   for (var pattern of winPatterns) {
+       var [a, b, c] = pattern;
        if (boardState[a] && boardState[a] === boardState[b] && boardState[a] === boardState[c]) {
            if (boardState[a] === "X") {
                message.innerText = "Player X wins!";
@@ -267,8 +267,8 @@ function checkWinner() {
 }
 
 // Function to update the score display
-const scoreX = document.getElementById("score-x");
-const scoreO = document.getElementById("score-o");
+var scoreX = document.getElementById("score-x");
+var scoreO = document.getElementById("score-o");
 
 // Function to update the score display
 function updateScore() {
