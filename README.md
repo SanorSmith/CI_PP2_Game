@@ -144,3 +144,33 @@ In the website structure with one index file, CSS and JavaScript dynamically cre
 - Play Page: Accessed when users click the "Start Game" button or a similar call-to-action on the Home page. Hosts the interactive Tic-Tac-Toe game, allowing users to play against another player or an AI opponent. Displays the game board, player information, and any relevant instructions.
 
 - Contact Us Page: A page where users can reach out for support, provide feedback, or ask questions. Contains a contact form, email address, or other means of communication. Offers information about the development team or company behind the website.
+
+## Technologies Used
+<hr>
+
+### Languages
+- HTML5
+- CSS
+- JavaScript 
+
+### Frameworks Libraries & Programs Used
+- GitHub
+- Git
+- Visual Studio Code
+- Squoosh
+- Photoshope
+- Font Awesome
+- Google Fonts
+- Balsamiq
+- Coolors
+- lighthouse
+- W3C Markup validation service
+- W3C Jigsaw CSS validation service 
+- jshint
+- am i responsive
+- WAVE WebAIM web accessibility evaluation tool
+- Grammarly
+
+
+[Back to top &uarr;](#Tic-Tac-Toe)
+
