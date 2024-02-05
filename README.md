@@ -43,3 +43,8 @@
 11. [Acknowledgments](#acknowledgments)
 
 <hr>
+
+## Introduction
+
+Tic-Tac-Toe is a classic two-player game on a 3x3 grid. Players take turns placing "X" or "O" in empty squares, aiming to form a line of three horizontally, vertically, or diagonally.
+
