@@ -105,3 +105,12 @@ The design choices for the Tic-Tac-Toe game website focus on creating a visually
 - [Mobile-wireframes(pdf)](assets/docs/wireframes/mobile_wireframes.pdf)
 - [Tablet-wireframes(pdf)](assets/docs/wireframes/tablet_wireframes.pdf)
 - [Desktop-wireframes(pdf)](assets/docs/wireframes/desktop_wireframes.pdf)
+
+
+### Colour
+A subdued color scheme that imparts a vibrant and clean look to the website.
+
+
+
+
+![Color](docs/features/color_pallete.png)
