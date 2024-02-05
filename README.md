@@ -96,3 +96,12 @@ User Experience (UX)
 
 ### Design decisions
 The design choices for the Tic-Tac-Toe game website focus on creating a visually appealing and user-friendly environment. Using a playful color palette and a minimalist interface, the design aims to evoke nostalgia and simplicity. The goal is to provide a joyful and inviting platform for users to enjoy a delightful gaming experience.
+
+
+### Wireframes
+
+***
+
+- [Mobile-wireframes(pdf)](/assets/docs/wireframes/mobile_wireframes.pdf)
+- [Tablet-wireframes(pdf)](/assets/docs/wireframes/tablet_wireframes.pdf)
+- [Desktop-wireframes(pdf)](/assets/docs/wireframes/desktop_wireframes.pdf)
