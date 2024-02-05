@@ -71,3 +71,10 @@ User Experience (UX)
 - Individuals reminiscing about classic games from their childhood.
 - Users looking for social interactions through gaming.
 
+### User Requirements and Expectations
+
+- Ensure the website is accessible on various devices, especially mobile.
+- Ensure the website loads quickly, and the game responds promptly.
+- Use visually appealing graphics and design elements.
+- Design the website to handle various user loads, especially during peak times.
+- Include a feedback or contact form for users to report issues or provide suggestions.
