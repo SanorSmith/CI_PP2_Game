@@ -78,3 +78,13 @@ User Experience (UX)
 - Use visually appealing graphics and design elements.
 - Design the website to handle various user loads, especially during peak times.
 - Include a feedback or contact form for users to report issues or provide suggestions.
+
+### User Stories
+
+- As a user, I want A clean and intuitive user interface with easy navigation.
+- As a user, I expect to play the game seamlessly on their preferred devices.
+- As a user, I can anticipate the ability to challenge others, fostering a social gaming experience.
+- As a user, I can easily understand the rules and gameplay mechanics.
+- As a user, I appreciate a visually pleasing interface that enhances the gaming experience.
+- As a user, I should be able to access and play the game without interruptions, even during high traffic.
+- As a user, I appreciate a platform that values their input and actively addresses concerns.
