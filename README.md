@@ -114,5 +114,5 @@ A subdued color scheme that imparts a vibrant and clean look to the website.
 
 
 <details><summary>Colour palette</summary>
-<img src="docs/features/color_pallete.png">
+<img src="assets/docs/features/color_pallete.png">
 </details>
