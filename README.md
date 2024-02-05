@@ -113,4 +113,6 @@ A subdued color scheme that imparts a vibrant and clean look to the website.
 
 
 
-![Color] (assets/docs/features/color_pallete.png)
+<details><summary>Colour palette</summary>
+<img src="docs/features/color_pallete.png">
+</details>
