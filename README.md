@@ -88,3 +88,11 @@ User Experience (UX)
 - As a user, I appreciate a visually pleasing interface that enhances the gaming experience.
 - As a user, I should be able to access and play the game without interruptions, even during high traffic.
 - As a user, I appreciate a platform that values their input and actively addresses concerns.
+
+[Back to top &uarr;](#Tic-Tac-Toe)
+
+## Design
+<hr>
+
+### Design decisions
+The design choices for the Tic-Tac-Toe game website focus on creating a visually appealing and user-friendly environment. Using a playful color palette and a minimalist interface, the design aims to evoke nostalgia and simplicity. The goal is to provide a joyful and inviting platform for users to enjoy a delightful gaming experience.
