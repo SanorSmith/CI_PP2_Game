@@ -116,3 +116,20 @@ A subdued color scheme that imparts a vibrant and clean look to the website.
 <details><summary>Colour palette</summary>
 <img src="assets/docs/features/color_pallete.png">
 </details>
+
+### Fonts
+
+Google fonts are used as follows:
+
+
+- The website primarily employs the Oswald sans-serif font, which is integrated into the CSS file using the @import method.This font was selected for its compatibility with web body text, ensuring readability even at small sizes.
+
+<details><summary>Google font</summary>
+<img src="assets/docs/features/font_Literata_serif.jpg">
+</details>
+
+- The social-network icons utilizes the Font Awesome 6, which has been imported into the html through java-script. This font family was chosen for footer icons.
+
+<details><summary>Font awesome</summary>
+<img src="assets/docs/features/font_awesome_6-1.jpg">
+</details>
