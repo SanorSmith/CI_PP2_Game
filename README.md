@@ -63,3 +63,11 @@ Tic-Tac-Toe is a classic two-player game on a 3x3 grid. Players take turns placi
 - Generate revenue through advertisements, in-app purchases, or premium features.
 
 [Back to top &uarr;](#Tic-Tac-Toe)
+
+User Experience (UX)
+### Intended audience
+- Individuals looking for easy-to-play, quick games to pass the time.
+- Parents and children seeking family-friendly activities.
+- Individuals reminiscing about classic games from their childhood.
+- Users looking for social interactions through gaming.
+

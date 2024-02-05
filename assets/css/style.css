@@ -1,5 +1,6 @@
 /* Give the body initial styles */ 
 body {
+  
     display: flex;
     flex-direction: column;
     margin: 80px 20px 0 20px ;
