@@ -133,3 +133,14 @@ Google fonts are used as follows:
 <details><summary>Font awesome</summary>
 <img src="assets/docs/features/font_awesome_6-1.jpg">
 </details>
+
+
+### Structure
+
+In the website structure with one index file, CSS and JavaScript dynamically creates three different pages: Home, Play, and Contact Us. The index file serves as the main entry point for the website, and through JavaScript, it dynamically generates content for each page based on user interaction.
+
+- Home Page: The default landing page when users visit the website. Provides an overview of the Tic-Tac-Toe game, with a brief introduction and game history.
+
+- Play Page: Accessed when users click the "Start Game" button or a similar call-to-action on the Home page. Hosts the interactive Tic-Tac-Toe game, allowing users to play against another player or an AI opponent. Displays the game board, player information, and any relevant instructions.
+
+- Contact Us Page: A page where users can reach out for support, provide feedback, or ask questions. Contains a contact form, email address, or other means of communication. Offers information about the development team or company behind the website.
