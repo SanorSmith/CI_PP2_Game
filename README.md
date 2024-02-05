@@ -113,4 +113,4 @@ A subdued color scheme that imparts a vibrant and clean look to the website.
 
 
 
-![Color](docs/features/color_pallete.png)
+![Color] (assets/docs/features/color_pallete.png)
