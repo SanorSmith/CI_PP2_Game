@@ -212,7 +212,7 @@ In the website structure with one index file, CSS and JavaScript dynamically cre
 - In the "Play" section, users will find a prominent button to initiate the game and clear instructions on how to play.
 
 <details><summary>Play</summary>
-<img src="assets/docs/features/play-features.jpg">
+<img src="assets/docs/features/play_features.jpg">
 </details>
 
 - The user has the option to select the number of players and decide between playing with a friend or against the computer. The computer's moves are determined using mathematical functions.
@@ -226,4 +226,12 @@ In the website structure with one index file, CSS and JavaScript dynamically cre
 
 <details><summary>Reset or Restart</summary>
 <img src="assets/docs/features/reset_restar_features.jpg">
+</details>
+
+### Contact us
+
+- Contact Us feature on the game page providing users with a way to reach out for assistance, report any issues they encounter while playing, or offer feedback and suggestions to improve the gaming experience. 
+
+<details><summary>Contact us</summary>
+<img src="assets/docs/features/Contact_features.jpg">
 </details>
