@@ -200,3 +200,11 @@ The site logo, which I personally designed using Photoshop, serves as a visual r
 <details><summary>Mobile navbar</summary>
 <img src="assets/docs/features/mobile_navbar.jpg">
 </details>
+
+### Home
+The homepage consists of two sections: "About the Game" and "The History of the Game." Here's a brief overview of each section.In the "About the Game" section, you'll find everything you need to know about Tic-Tac-Toe. From its simple rules to its engaging gameplay, we've got you covered.
+Explore the rich heritage of Tic-Tac-Toe in our "History of the Game" section. Uncover its origins, cultural significance, and enduring popularity across generations.
+
+<details><summary>Mobile navbar</summary>
+<img src="assets/docs/features/home-features.jpg">
+</details>
