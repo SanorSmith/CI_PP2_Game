@@ -303,3 +303,16 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 <details><summary>404.page-desktop</summary>
 <img src="assets/docs/validation/performance_lighthouse_desktop_404.png">
 </details>
+
+### Device testing
+- Lenovo Legion T5AMR5
+- Samsung A52, Galaxy 20, Ultra 
+- Iphone 5,6,7,12,12pro,14Max-
+- Ipad Air,Pro
+ 
+ ### Browser Compatability 
+ - Project was developed in the Google Chrome browser and then tested in:
+ - Microsoft Edge
+ - Mozilla Firefox
+
+ [Back to top &uarr;](#Tic-Tac-Toe)
