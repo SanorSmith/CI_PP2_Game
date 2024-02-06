@@ -174,3 +174,11 @@ In the website structure with one index file, CSS and JavaScript dynamically cre
 
 [Back to top &uarr;](#Tic-Tac-Toe)
 
+## Features
+
+### Favicon
+The website includes a favicon, a small icon displayed in the browser tab or next to the website's name in bookmarks, which enhances branding and improves recognition.
+
+<details><summary>Favicon</summary>
+<img src="assets/docs/features/favicon.jpg">
+</details>
