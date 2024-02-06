@@ -189,3 +189,14 @@ The site logo, which I personally designed using Photoshop, serves as a visual r
 <details><summary>Site Logo</summary>
 <img src="assets/docs/features/logo.jpg">
 </details>
+
+### Navigation
+-Both navigation systems are designed to be user-friendly, intuitive, and responsive across all screen sizes. A hamburger menu is utilized for mobile devices and screens up to 768px, while a sticky navigation bar is employed for screens larger than 768px. This setup provides users with a clear and seamless navigation experience, with links to specific sections of the website. On the desktop version, links are underlined and increase in size when hovered over, enhancing user engagement.
+
+<details><summary>Desktop navbar</summary>
+<img src="assets//docs/features/desktop_navbar.jpg">
+</details>
+
+<details><summary>Mobile navbar</summary>
+<img src="assets/docs/features/mobile_navbar.jpg">
+</details>
