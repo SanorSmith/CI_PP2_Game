@@ -263,3 +263,14 @@ Testing was conducted throughout the development process using Chrome Developer 
 <details><summary>404 page</summary>
 <img src="assets/docs/validation/404_html_validator.jpg" alt="validation of 404.html page">
 </details>
+
+[Back to top &uarr;](#Tic-Tac-Toe)
+
+### CSS Validation
+The CSS code of the website was tested using the W3C Jigsaw CSS Validation Service, which confirmed that the code was error-free.
+<details><summary>Full Page</summary>
+<img src="assets/docs/validation/css_validation_index.jpg" alt="validation of css code">
+</details>
+<details><summary>style.css</summary>
+<img src="assets/docs/validation/css-validation_style_file.jpg" alt="validation of css code">
+</details>
