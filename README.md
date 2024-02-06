@@ -285,3 +285,21 @@ We used  WAVE WebAIM web accessibility evaluation service to ensure the project'
 <details><summary>404-page</summary>
 <img src="assets/docs/validation/accessibility_validation_404.png" alt="accessibility evaluation of 404.page">
 </details>
+
+### Performance
+I used Google Lighthouse in Google Chrome Developer Tools to test the performance of the project.
+
+<details><summary>Website-Index-mobile</summary>
+<img src="assets/docs/validation/performance_lighthouse_mobile_index.jpg">
+</details>
+
+<details><summary>Website-Index-desktop</summary>
+<img src="assets/docs/validation/performance_lighthouse_desktop_index.jpg">
+</details>
+
+<details><summary>404.page-mobile</summary>
+<img src="assets/docs/validation/performance_lighthouse_mobile_404.jpg">
+</details>
+<details><summary>404.page-desktop</summary>
+<img src="assets/docs/validation/performance_lighthouse_desktop_404.png">
+</details>
