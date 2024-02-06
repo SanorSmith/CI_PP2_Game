@@ -267,10 +267,21 @@ Testing was conducted throughout the development process using Chrome Developer 
 [Back to top &uarr;](#Tic-Tac-Toe)
 
 ### CSS Validation
-The CSS code of the website was tested using the W3C Jigsaw CSS Validation Service, which confirmed that the code was error-free.
+The CSS code of the website was tested using the W3C Jigsaw CSS Validation Service, which confirmed that the code was error-free on the style.css file, on other hand it shows some errors with bootstrap v5.3.2 .
 <details><summary>Full Page</summary>
 <img src="assets/docs/validation/css_validation_index.jpg" alt="validation of css code">
 </details>
 <details><summary>style.css</summary>
 <img src="assets/docs/validation/css-validation_style_file.jpg" alt="validation of css code">
+</details>
+
+### Accessibility
+
+We used  WAVE WebAIM web accessibility evaluation service to ensure the project's high standards regarding accessibility.
+<details><summary>Index</summary>
+<img src="assets/docs/validation/accessibility_validation_index.png" alt="accessibility evaluation of website">
+</details>
+
+<details><summary>404-page</summary>
+<img src="assets/docs/validation/accessibility_validation_404.png" alt="accessibility evaluation of 404.page">
 </details>
