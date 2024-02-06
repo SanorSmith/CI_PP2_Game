@@ -235,3 +235,10 @@ In the website structure with one index file, CSS and JavaScript dynamically cre
 <details><summary>Contact us</summary>
 <img src="assets/docs/features/Contact_features.jpg">
 </details>
+
+### Footer
+- A social media segment featuring links to connect with the company, along with a trademark section showcasing the developer's name.
+
+<details><summary>Footer</summary>
+<img src="assets/docs/features/footer_features.jpg">
+</details>
