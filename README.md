@@ -259,3 +259,7 @@ Testing was conducted throughout the development process using Chrome Developer 
 <details><summary>Index.html</summary>
 <img src="assets/docs/validation/html_validator_index.jpg" alt="validation of index.html page">
 </details>
+
+<details><summary>404 page</summary>
+<img src="assets/docs/validation/404_html_validator.jpg" alt="validation of 404.html page">
+</details>
