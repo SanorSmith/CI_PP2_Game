@@ -335,3 +335,7 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 <details><summary>Screenshot Desktop</summary>
 <img src="assets/docs/user_story/desktop_navbar_uex.png">
 </details>
+
+<details><summary>Screenshot Desktop</summary>
+<img src="assets/docs/user_story/user_story_footer.png">
+</details>
