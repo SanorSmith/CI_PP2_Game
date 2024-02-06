@@ -177,21 +177,21 @@ In the website structure with one index file, CSS and JavaScript dynamically cre
 ## Features
 
 ### Favicon
-The website includes a favicon, a small icon displayed in the browser tab or next to the website's name in bookmarks, which enhances branding and improves recognition.
+- The website includes a favicon, a small icon displayed in the browser tab or next to the website's name in bookmarks, which enhances branding and improves recognition.
 
 <details><summary>Favicon</summary>
 <img src="assets/docs/features/favicon.jpg">
 </details>
 
 ### Logo
-The site logo, which I personally designed using Photoshop, serves as a visual representation of the website's identity and brand.
+- The site logo, which I personally designed using Photoshop, serves as a visual representation of the website's identity and brand.
 
 <details><summary>Site Logo</summary>
 <img src="assets/docs/features/logo.jpg">
 </details>
 
 ### Navigation
--Both navigation systems are designed to be user-friendly, intuitive, and responsive across all screen sizes. A hamburger menu is utilized for mobile devices and screens up to 768px, while a sticky navigation bar is employed for screens larger than 768px. This setup provides users with a clear and seamless navigation experience, with links to specific sections of the website. On the desktop version, links are underlined and increase in size when hovered over, enhancing user engagement.
+- Both navigation systems are designed to be user-friendly, intuitive, and responsive across all screen sizes. A hamburger menu is utilized for mobile devices and screens up to 768px, while a sticky navigation bar is employed for screens larger than 768px. This setup provides users with a clear and seamless navigation experience, with links to specific sections of the website. On the desktop version, links are underlined and increase in size when hovered over, enhancing user engagement.
 
 <details><summary>Desktop navbar</summary>
 <img src="assets//docs/features/desktop_navbar.jpg">
@@ -202,9 +202,22 @@ The site logo, which I personally designed using Photoshop, serves as a visual r
 </details>
 
 ### Home
-The homepage consists of two sections: "About the Game" and "The History of the Game." Here's a brief overview of each section.In the "About the Game" section, you'll find everything you need to know about Tic-Tac-Toe. From its simple rules to its engaging gameplay, we've got you covered.
-Explore the rich heritage of Tic-Tac-Toe in our "History of the Game" section. Uncover its origins, cultural significance, and enduring popularity across generations.
+- The homepage consists of two sections: "About the Game" and "The History of the Game." Here's a brief overview of each section.In the "About the Game" section, you'll find everything you need to know about Tic-Tac-Toe. From its simple rules to its engaging gameplay, we've got you covered. Explore the rich heritage of Tic-Tac-Toe in our "History of the Game" section. Uncover its origins, cultural significance, and enduring popularity across generations.
 
-<details><summary>Mobile navbar</summary>
+<details><summary>Home</summary>
 <img src="assets/docs/features/home-features.jpg">
+</details>
+
+### Play
+- In the "Play" section, users will find a prominent button to initiate the game and clear instructions on how to play.
+
+<details><summary>Play</summary>
+<img src="assets/docs/features/home-features.jpg">
+</details>
+
+- The user has the option to select the number of players and decide between playing with a friend or against the computer. The computer's moves are determined using mathematical functions.
+
+
+<details><summary>The number of players </summary>
+<img src="assets/docs/features/play_features_no_of_players.jpg">
 </details>
