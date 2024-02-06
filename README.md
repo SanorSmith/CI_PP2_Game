@@ -337,5 +337,5 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 </details>
 
 <details><summary>Screenshot Desktop</summary>
-<img src="assets/docs/user_story/user_story_footer.png">
+<img src="assets/docs/user_story/user_story_nav_contact_footer.png">
 </details>
