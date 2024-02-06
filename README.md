@@ -221,3 +221,9 @@ In the website structure with one index file, CSS and JavaScript dynamically cre
 <details><summary>The number of players </summary>
 <img src="assets/docs/features/play_features_no_of_players.jpg">
 </details>
+
+- At any point during the game, the user has the option to reset the board or restart the game.
+
+<details><summary>Reset or Restart</summary>
+<img src="assets/docs/features/reset_restar_features.jpg">
+</details>
