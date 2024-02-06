@@ -246,7 +246,16 @@ In the website structure with one index file, CSS and JavaScript dynamically cre
 ### 404 Message
 - Offers users a method to navigate back to the game if they encounter a broken link.
 
-<details><summary>Footer</summary>
+<details><summary>404 Message</summary>
 <img src="assets/docs/features/404_features.jpg">
 </details>
 
+## Testing
+<hr>
+
+### HTML Validation
+Testing was conducted throughout the development process using Chrome Developer Tools and again upon project completion. The HTML of the website was validated using the W3C Markup Validation Service, and all code successfully passed without any errors.
+
+<details><summary>Index.html</summary>
+<img src="docs/validation/html_validator_index.jpg" alt="validation of index.html page">
+</details>
