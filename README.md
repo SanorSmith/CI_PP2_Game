@@ -242,3 +242,11 @@ In the website structure with one index file, CSS and JavaScript dynamically cre
 <details><summary>Footer</summary>
 <img src="assets/docs/features/footer_features.jpg">
 </details>
+
+### 404 Message
+- Offers users a method to navigate back to the game if they encounter a broken link.
+
+<details><summary>Footer</summary>
+<img src="assets/docs/features/404_features.jpg">
+</details>
+
