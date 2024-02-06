@@ -212,7 +212,7 @@ In the website structure with one index file, CSS and JavaScript dynamically cre
 - In the "Play" section, users will find a prominent button to initiate the game and clear instructions on how to play.
 
 <details><summary>Play</summary>
-<img src="assets/docs/features/home-features.jpg">
+<img src="assets/docs/features/play-features.jpg">
 </details>
 
 - The user has the option to select the number of players and decide between playing with a friend or against the computer. The computer's moves are determined using mathematical functions.

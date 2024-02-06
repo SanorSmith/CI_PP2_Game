@@ -98,9 +98,9 @@ function runningGameBoardRunder() {
    // Start-Restart Buttons styles
    buttonsContainer.style.display = "flex";
    buttonsContainer.style.justifyContent = "space-around";
-   resetButton.style.width = "7rem";
+   resetButton.style.width = "10rem";
    resetButton.style.margin = "1rem";
-   restartButton.style.width = "7rem";
+   restartButton.style.width = "10rem";
    restartButton.style.margin = "1rem";
 }
 
