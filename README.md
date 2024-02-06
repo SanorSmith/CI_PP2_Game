@@ -182,3 +182,10 @@ The website includes a favicon, a small icon displayed in the browser tab or nex
 <details><summary>Favicon</summary>
 <img src="assets/docs/features/favicon.jpg">
 </details>
+
+### Logo
+The site logo, which I personally designed using Photoshop, serves as a visual representation of the website's identity and brand.
+
+<details><summary>Site Logo</summary>
+<img src="assets/docs/features/logo.jpg">
+</details>
