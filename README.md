@@ -402,3 +402,13 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 <img src="assets/docs/user_story/user_stories_reset_button.jpg">
 </details>
 
+8. As a new user, I would like to play another round.
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+|   Restart Game Button  |  Click on the "Restart Game" button during gameplay. |   The current game board is cleared, and the scoreboard resets to zero, initiating a new game session. | Working as expected|
+
+
+<details><summary>Screenshot</summary>
+<img src="assets/docs/user_story/user_stories_restart_button.jpg">
+</details>
