@@ -368,12 +368,23 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 <img src="assets/docs/user_story/user_stories_home.jpg">
 </details>
 
-3. As a new user, you want to start the game quickly and learn how to play.
+3. As a new user, I want to start the game quickly and learn how to play.
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
 |    Starting the Game  |   Click on the "Play" option in the navigation menu. |  Upon clicking the "Play" option, the "Play" page loads, providing instructions on gameplay and a "Start" button. | Working as expected|
 
 <details><summary>Screenshot</summary>
-<img src="assets/docs/user_story/user_stories_home.jpg">
+<img src="assets/docs/user_story/user_stories_play.jpg">
 </details>
+
+4. As a new user, I want to know if I can choose number of players.
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+|   Choosing Number of Players  |  Choosing Number of Players |   A message appears, allowing the selection of either one or two players. | Working as expected|
+
+<details><summary>Screenshot</summary>
+<img src="assets/docs/user_story/user_stories_no_players.jpg">
+</details>
+
