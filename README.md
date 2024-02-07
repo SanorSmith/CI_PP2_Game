@@ -434,3 +434,20 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 <details><summary>Screenshot</summary>
 <img src="assets/docs/user_story/user_stories_footer.jpg">
 </details>
+
+[Back to top &uarr;](#Tic-Tac-Toe)
+
+## Bugs
+
+***
+| **Bug**                     | **Fix**                          
+|-------------------------------------|--------------------------------------------------------------------------------------|
+|The game board was responsive to mouse clicks even on the unoccupied cell positions.|Introduce an 'emptyCells' array variable within the 'computerMove' function, implement a conditional check, and disable the occupied cells whenever both players mark a cell on the board. |
+
+|The game couldn't determine a winner when the user achieved three horizontal, vertical, or diagonal cell positions on the board.| To address this issue, Created a function called 'checkWinner' and provided it with an array of winning patterns specific to this game. This function checks all the board cells each time a player makes a move. If a winner is found, a winning message will appear.|
+
+|At the start, the game had an infinite number of rounds, meaning it was endless even if I pressed the reset button. Additionally, the scoreboard was never initialized.| To address this problem, Created a function called 'restartGame' which is triggered by the restart button. In this function, initializing the score variables for both players and then called the 'resetGame' function to clear the playground from any marks. As a result, the game gained a new feature allowing the session to be restarted. |
+
+|When starting the coding process, the initial decision was to split the JavaScript code into two separate files: one for the view settings and another for the game rules. However, attempts to transfer variables between these two files were unsuccessful. | To circumvent this issue, Put the code into a single file. While this resulted in the code functioning properly.|
+
+|The alignment of the board cells, buttons, and scores couldn't be centered beneath each other within the page. | To address this issue, group each type of element within its own container and place all these groups inside a larger container. Adjust their alignment using a combination of flexbox and block properties. |

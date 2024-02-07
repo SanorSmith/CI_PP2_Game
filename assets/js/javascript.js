@@ -250,7 +250,7 @@ function checkWinner() {
                score.X += 1;
            } else {
                message.innerText = onePlayerMode ? "Computer wins!" : "Player O wins!";
-               score.o += 1;
+               score.O += 1;
            }
            updateScore();
            

@@ -121,7 +121,7 @@ body {
   #mode-selection button {
       margin: 5px;
       padding: 10px 20px;
-      font-size: 16px;
+      height: 4rem;
       cursor: pointer;
       border-radius: 10px;
       background-color: #AB9379;
