@@ -368,3 +368,14 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 <img src="assets/docs/user_story/user_stories_no_players.jpg">
 </details>
 
+5. As a new user, I want to know if I can play against pc or against another player.
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+|   Playing Against the Computer  |  Select one player mode and proceed with the game. |    The game begins, and moves are automatically generated for the computer player. | Working as expected|
+|  Playing Against Another Player  |  Choose two player mode and commence the game. |    The game board listens for mouse input from both players, allowing for interactive gameplay. | Working as expected|
+
+<details><summary>Screenshot</summary>
+<img src="assets/docs/user_story/user_stories_game_board.png">
+</details>
+
