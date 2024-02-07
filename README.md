@@ -422,3 +422,15 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 
 <details><summary>Screenshot</summary>
 <img src="assets/docs/user_story/user_stories_contact_us.jpg">
+</details>
+
+9. As a site owner, my aim is for users to easily locate us on social media.
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+|   Footer |   At the bottom of the website, users can navigate and connect through social networks. |   offering additional avenues for user interaction and engagement with the company. | Working as expected|
+
+
+<details><summary>Screenshot</summary>
+<img src="assets/docs/user_story/user_stories_footer.jpg">
+</details>
