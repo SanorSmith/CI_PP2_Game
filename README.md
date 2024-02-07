@@ -30,6 +30,7 @@
 6. [Testing](#validation)
     - [HTML Validation](#html-validation)
     - [CSS Validation](#css-validation)
+    - [JavaScript Validation](#javascript-validation)
     - [Accessibility](#accessibility)
     - [Performance](#performance)
     - [Device testing](#device-testing)
@@ -273,6 +274,13 @@ The CSS code of the website was tested using the W3C Jigsaw CSS Validation Servi
 </details>
 <details><summary>style.css</summary>
 <img src="assets/docs/validation/css-validation_style_file.jpg" alt="validation of css code">
+</details>
+
+### JavaScript Validation
+The JavaScript files underwent validation using the JSHint Static Code Analysis Tool, revealing no notable issues.
+
+<details><summary>javascript.js</summary>
+<img src="assets/docs/validation/validation_javascript.jpg" alt="validation of css code">
 </details>
 
 ### Accessibility
