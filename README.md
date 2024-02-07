@@ -368,3 +368,12 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 <img src="assets/docs/user_story/user_stories_home.jpg">
 </details>
 
+3. As a new user, you want to start the game quickly and learn how to play.
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+|    Starting the Game  |   Click on the "Play" option in the navigation menu. |  Upon clicking the "Play" option, the "Play" page loads, providing instructions on gameplay and a "Start" button. | Working as expected|
+
+<details><summary>Screenshot</summary>
+<img src="assets/docs/user_story/user_stories_home.jpg">
+</details>
