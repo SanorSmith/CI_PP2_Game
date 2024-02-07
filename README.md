@@ -390,3 +390,15 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 <details><summary>Screenshot</summary>
 <img src="assets/docs/user_story/user_stories_score_board.jpg">
 </details>
+
+5. As a new user, I would like to see a round winner announcement.
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+|   Displaying Winner Message  |  Complete a round of Tic-Tac-Toe with a winning move. |   A congratulatory message appears, indicating the winner of the round. | Working as expected|
+
+
+<details><summary>Screenshot</summary>
+<img src="assets/docs/user_story/user_stories_winning_message.jpg">
+</details>
+
