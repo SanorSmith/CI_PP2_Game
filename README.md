@@ -348,7 +348,7 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 <img src="assets/docs/user_story/user_story_nav_contact_footer.png">
 </details>
 
-1. As a New User,I want play the tic-tac game on website for pc and mobile devices anytime and anywhere.
+1. As a New User,I want to play the tic-tac game on website for pc and mobile devices anytime and anywhere.
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
@@ -357,3 +357,14 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 <details><summary>Screenshot</summary>
 <img src="assets/docs/user_story/user_stories_loading.jpg">
 </details>
+
+2. As a New User,I want know the game and know the history of the game.
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+|   Exploring Home Page Sections   |  Click on the "Home" option in the navigation menu | The homepage displays two sections: "About the Game" and "Story of the Game. | Working as expected|
+
+<details><summary>Screenshot</summary>
+<img src="assets/docs/user_story/user_stories_home.jpg">
+</details>
+
