@@ -336,14 +336,24 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 |   Contact Us Section                     | Above the footer, users can click to initiate contact and submit their messages and details. | Efficiently reach out to the company, submit your message and relevant details." |Working as expected|
 |   Footer                              | At the bottom of the website, users can navigate and connect through social networks |offering additional avenues for user interaction and engagement with the company. | Working as expected |
 
-<details><summary>Screenshot Mobile</summary>
+<details><summary>Screenshot/summary>
 <img src="assets/docs/user_story/mobile_navbar_uex.png">
 </details>
 
-<details><summary>Screenshot Desktop</summary>
+<details><summary>Screenshot</summary>
 <img src="assets/docs/user_story/desktop_navbar_uex.png">
 </details>
 
-<details><summary>Screenshot Desktop</summary>
+<details><summary>Screenshot</summary>
 <img src="assets/docs/user_story/user_story_nav_contact_footer.png">
+</details>
+
+1. As a New User,I want play the tic-tac game on website for pc and mobile devices anytime and anywhere.
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+|   Accessing the Tic-Tac-Toe Website   |  Open the browser and navigate to the Tic-Tac-Toe website. | The homepage of the Tic-Tac-Toe website loads successfully, displaying the navigation menu with options for "Home," "Play," and "Contact Us. | Working as expected|
+
+<details><summary>Screenshot</summary>
+<img src="assets/docs/user_story/user_stories_loading.jpg">
 </details>
