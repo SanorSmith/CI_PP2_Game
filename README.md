@@ -375,7 +375,18 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 |   Playing Against the Computer  |  Select one player mode and proceed with the game. |    The game begins, and moves are automatically generated for the computer player. | Working as expected|
 |  Playing Against Another Player  |  Choose two player mode and commence the game. |    The game board listens for mouse input from both players, allowing for interactive gameplay. | Working as expected|
 
+
 <details><summary>Screenshot</summary>
-<img src="assets/docs/user_story/user_stories_game_board.png">
+<img src="assets/docs/user_story/user_stories_game_board.jpg">
 </details>
 
+5. As a new user, I want to see the Real-Time Score Display.
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+|   Viewing the Scoreboard  |  Play multiple rounds of Tic-Tac-Toe. |   After each round, the scoreboard updates to display the number of wins for each player. | Working as expected|
+
+
+<details><summary>Screenshot</summary>
+<img src="assets/docs/user_story/user_stories_score_board.jpg">
+</details>
