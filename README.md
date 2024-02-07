@@ -402,7 +402,7 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 <img src="assets/docs/user_story/user_stories_reset_button.jpg">
 </details>
 
-8. As a new user, I would like to play another round.
+8. As a new user, I would like to play a new session.
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
@@ -412,3 +412,13 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 <details><summary>Screenshot</summary>
 <img src="assets/docs/user_story/user_stories_restart_button.jpg">
 </details>
+
+9. As a site owner, I desire for users to have the capability to contact us or provide suggestions for new phrases.
+
+| **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
+|---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
+|   Contacting Support  |   Click on the "Contact Us" option in the navigation menu. |   Upon selecting "Contact Us," the page loads with fields for username, email, message, and a submit button, facilitating easy communication with support or get feedback. | Working as expected|
+
+
+<details><summary>Screenshot</summary>
+<img src="assets/docs/user_story/user_stories_contact_us.jpg">
