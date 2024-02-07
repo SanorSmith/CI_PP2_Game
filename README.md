@@ -380,7 +380,7 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 <img src="assets/docs/user_story/user_stories_game_board.jpg">
 </details>
 
-5. As a new user, I want to see the Real-Time Score Display.
+6. As a new user, I want to see the Real-Time Score Display.
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
@@ -391,14 +391,14 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 <img src="assets/docs/user_story/user_stories_score_board.jpg">
 </details>
 
-5. As a new user, I would like to see a round winner announcement.
+7. As a new user, I would like to play another round.
 
 | **Feature**                     | **Action**                          | **Expected Result**                                                                  | **Actual Result** |
 |---------------------------------|-------------------------------------|--------------------------------------------------------------------------------------|-------------------|
-|   Displaying Winner Message  |  Complete a round of Tic-Tac-Toe with a winning move. |   A congratulatory message appears, indicating the winner of the round. | Working as expected|
+|   Reset Board Button  |  Click on the "Reset Board" button during gameplay. |   The current game board is cleared of all marks, allowing for a fresh start without affecting the scoreboard. | Working as expected|
 
 
 <details><summary>Screenshot</summary>
-<img src="assets/docs/user_story/user_stories_winning_message.jpg">
+<img src="assets/docs/user_story/user_stories_reset_button.jpg">
 </details>
 
