@@ -447,3 +447,23 @@ I used Google Lighthouse in Google Chrome Developer Tools to test the performanc
 |At the start, the game had an infinite number of rounds, meaning it was endless even if I pressed the reset button. Additionally, the scoreboard was never initialized.|To address this problem, Created a function called 'restartGame' which is triggered by the restart button. In this function, initializing the score variables for both players and then called the 'resetGame' function to clear the playground from any marks. As a result, the game gained a new feature allowing the session to be restarted.|
 |When starting the coding process, the initial decision was to split the JavaScript code into two separate files: one for the view settings and another for the game rules. However, attempts to transfer variables between these two files were unsuccessful.|To circumvent this issue, Put the code into a single file. While this resulted in the code functioning properly.|
 |The alignment of the board cells, buttons, and scores couldn't be centered beneath each other within the page.|To address this issue, group each type of element within its own container and place all these groups inside a larger container. Adjust their alignment using a combination of flexbox and block properties.|
+
+
+## Deployment
+
+***
+### Setting up GitHub Pages Deployment
+To deploy the live website on GitHub Pages:
+
+1. Log in to GitHub.
+
+2. Go to the project repository [CI_PP2_Tic_Tac](https://github.com/SanorSmith/CI_PP2_Tic_Tac).
+
+3. Open the "Settings" tab.
+
+4. Click on "Pages" in the left-hand navigation.
+
+5. Under "Source," select "Branch: master."
+
+6. Click "Save," and your site will be published at https://sanorsmith.github.io/CI_PP2_Tic_Tac/
+
