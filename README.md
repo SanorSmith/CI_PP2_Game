@@ -495,3 +495,31 @@ Here are the steps to clone a GitHub repository:
 7. Press Enter to initiate the creation of your local clone.
 
 [Back to top &uarr;](#Tic-Tac-Toe)
+
+
+## Credits
+
+***
+### Media
+Images:
+- [Favicon and Logo](assets/docs/features/logo.jpg): photo by Sanor Smith designed with Photoshop.
+- [background-img](assets/images/pexels-bk.webp): photo by <a href="https://www.pexels.com/@tara-winstead//">MarcVanduffel</a> on <a href="https://pexels.com/">Pexels</a>
+
+### code:
+- The project's custom images were created using the [squoosh.app]( https://squoosh.app/) website.
+- The project's wireframes were created using the [Balsamiq cloud](https://balsamiq.com/wireframes/) website.
+- The color paletts were created using the [color-hex]( https://www.color-hex.com) website.
+- Implementing Bootstrap 5.1.3 to style specific sections of the website and creating a hamburger menu tailored for mobile devices [Coding With JayBird](https://www.youtube.com/@codingwithjaybird).
+- Review the validation criteria function for the tic-tac-toe game implemented in JavaScript [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified).
+- Comprehend the process of declaring variables in two distinct JavaScript files and creating nested loops with varying conditional checks [Steve Griffith - Prof3ssorSt3v3](https://www.youtube.com/@SteveGriffith-Prof3ssorSt3v3).
+
+## Acknowledgements
+
+***
+I'd like to take a moment to express my gratitude to the individuals listed below: 
+- I would like to express my gratitude to my mentor, Mo Shami, for providing valuable feedback, offering advice, providing guidance, and offering unwavering support.
+- I want thank my wife, Sharmen, for her unwavering support and understanding throughout the development of this project.
+- To the wonderful people within the Code Institute Slack community who generously offer peer code reviews.
+
+
+[Back to top &uarr;](#Tic-Tac-Toe)
