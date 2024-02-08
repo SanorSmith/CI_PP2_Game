@@ -467,3 +467,10 @@ To deploy the live website on GitHub Pages:
 
 6. Click "Save," and your site will be published at https://sanorsmith.github.io/CI_PP2_Tic_Tac/
 
+
+### Local Development
+
+#### How to Create a Fork of a Repository
+You can create a fork of the repository by following these steps:
+1. Go to the GitHub repository for the project [CI_PP2_Tic_Tac](https://github.com/SanorSmith/CI_PP2_Tic_Tac).
+2. In the upper right-hand corner, locate the "Fork" button and click on it. 
